@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessTheNumber {
+public class poznajChisloto {
     public static void main(String[] args) {
 
         Random proizvolno = new Random();               // Създаваме обект Random
