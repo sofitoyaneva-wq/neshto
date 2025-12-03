@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class GuessTheNumber {
     public static void main(String[] args) {
 
-        Random random = new Random();               // Създаваме обект Random
-        int secretNumber = random.nextInt(100) + 1; // Генерираме число от 1 до 100
+        Random proizvolno = new Random();               // Създаваме обект Random
+        int secretNumber = proizvolno.nextInt(100) + 1; // Генерираме число от 1 до 100
         Scanner scanner = new Scanner(System.in);   // Скенер за въвеждане
 
         System.out.println("Компютърът избра число от 1 до 100. Познай го!");
